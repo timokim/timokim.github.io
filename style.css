@@ -1,0 +1,78 @@
+/* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  overflow:hidden;
+  position: relative;
+}
+
+/* Initial menu */
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  top: -52px;  /* start off behind the scenes */
+  height: 52px;
+  position: fixed;
+  width: 100%;
+}
+
+/* Basic styling */
+
+.jumbotron {
+  background-image: url('http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg'); 
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-left: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  display: inline;
+  line-height: 45px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.menu li:last-child {
+  border-right: 1px solid #636366;
+}
+
+.menu a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 21px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
